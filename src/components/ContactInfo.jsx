@@ -8,8 +8,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
-      className=" h-screen flex 2xl:flex-row flex-col justify-center
-      items-center"
+      className=" h-screen flex 2xl:flex-row flex-col justify-center items-center "
     >
       <motion.div
         initial={{
@@ -23,7 +22,7 @@ const Contact = () => {
         viewport={{ once: true }}
         className="mr-5 md:p-5 p-1"
       >
-        <ul id="contact" className="text-onyx md:text-4xl text-2xl">
+        <ul id="contact" className="text-onyx md:text-4xl text-2xl pl-5">
           <li className="text-black font-bold md:text-5xl text-3xl pb-5">
             Contact HoveyRoofing
           </li>

@@ -3,11 +3,11 @@ import Hamburger from "./Hamburger";
 const Header = () => {
   return (
     <header className="relative top-0 z-50">
-      <nav className="flex justify-between p-4 w-full text-white _textShadow text-2xl">
-        <a href="/" className="font-bold">
+      <nav className="flex justify-between p-4 w-full text-white  text-2xl">
+        <a href="/" className="font-bold _textShadow">
           HoveyRoofing
         </a>
-        <div className="flex">
+        <div className="flex _textShadow">
           <a href="/#about" className="px-1 md:block hidden">
             about
           </a>

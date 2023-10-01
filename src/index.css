@@ -25,18 +25,15 @@ html {
   text-shadow: 3px 3px 4px #000;
 }
  
-
-  .dropdown {
-  /* background: #fff; */
-  }
-
+   
   .dropdown .nav-menu {
    background: #fff;
     color: #000;
-    border-left: solid 2px #000;
+    border: solid 2px #000;
     width: 50%;
-    height: 100vh;
+    height: 35vh;
     position: fixed;
+    z-index: 100;
     top: 0;
     right: -100%;
     transition: 850ms;

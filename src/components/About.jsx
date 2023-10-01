@@ -8,7 +8,7 @@ const About = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
-      className="2xl:h-screen h-[100%] pt-[50px] pb-[250px]"
+      className="2xl:h-screen h-[100%] pb-[250px] md:pt-5 pt-[850px]"
       id="about"
     >
       <div className="flex 2xl:flex-row flex-col justify-center text-onyx">

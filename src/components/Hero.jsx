@@ -8,10 +8,10 @@ const Hero = () => {
       transition={{ delay: 0.1, duration: 0.5 }}
       whileInView="show"
     >
-      <div className="flex items-center w-full h-screen">
-        <div className="absolute z-50  _textShadowBold text-white flex items-center flex-col">
+      <div className="flex items-center w-full md:h-screen h-[100%]">
+        <div className="absolute md:z-50 z-0 _textShadowBold text-white flex items-center flex-col pl-[50px]">
           <h2 className="md:text-6xl text-5xl my-4">HoveyRoofing Company</h2>
-          <span className="md:text-3xl text-lg ml-[75px]">
+          <span className="text-2xl md:ml-[75px] ml-2 md:mt-1 mt-4">
             Serving Redlands and surrounding areas since 1988
           </span>
         </div>
